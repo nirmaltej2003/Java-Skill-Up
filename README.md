@@ -156,58 +156,62 @@ Comments are used to provide additional information for the Java program.
 
 /* This is a block comment */
 
-Java Program Execution Flow
+----------------------------------------
+Java Program Flow
+----------------------------------------
 
-• We write the program using EditPlus / Notepad.
-• This program is called Source Code.
-• Source code is written in a human-readable format.
+• We write the program using EditPlus / Notepad.  
+• This program is called Source Code.  
+• Source code is written in a human-readable format.  
 
-• To convert human-readable code into machine-readable code, we use the Command Prompt.
-• Two main operations are performed:
-  1. javac (Java Compiler)
-  2. java (Java Interpreter)
+• To convert human-readable code into machine-readable code, we use the Command Prompt.  
+• Two main operations are performed:  
+  1. javac (Java Compiler)  
+  2. java (Java Interpreter)  
 
-• After writing the program, save the file with the .java extension.
-• Save the file in the following path:
-  C:/Program Files/Java/JDK1.8/bin
+• After writing the program, save the file with the .java extension.  
+• Save the file in the following path:  
+        C:/Program Files/Java/JDK1.8/bin  
 
-• The .java file is given as input to the compiler.
-• The compiler performs the following checks:
-  1. Syntax checking
-  2. Rule validation
-  3. Translation from .java file to .class file
+• The .java file is given as input to the compiler.  
+• The compiler performs the following checks:  
+  1. Syntax checking  
+  2. Rule validation  
+  3. Translation from .java file to .class file  
 
-• If any syntax or rule violation occurs, a Compile Time Error is generated.
-• If there are no errors, a .class file is generated.
+• If any syntax or rule violation occurs, a Compile Time Error is generated.  
+• If there are no errors, a .class file is generated.  
 
-• The .class file is an Intermediate Code.
-• It is in Byte Code format.
-• Byte code is not understandable by humans or machines directly.
+• The .class file is an Intermediate Code.  
+• It is in Byte Code format.  
+• Byte code is not understandable by humans or machines directly.  
 
-• The .class file is given as input to the Java Interpreter.
-• The interpreter performs the following actions:
-  1. Reads the code line by line
-  2. Executes the program using JVM
-  3. Translates byte code into binary language
+• The .class file is given as input to the Java Interpreter.  
+• The interpreter performs the following actions:  
+  1. Reads the code line by line  
+  2. Executes the program using JVM  
+  3. Translates byte code into binary language  
 
-• If abnormal statements are found (example: 1/0),
-  Java throws a Run Time Error.
-• Example of runtime error: ArithmeticException.
+• If abnormal statements are found (example: 1/0),  
+  Java throws a Run Time Error.  
+• Example of runtime error: ArithmeticException.  
 
+----------------------------------------
 Java Components
+----------------------------------------
 
-JIT (Just In Time Compiler)
-• Responsible for converting .class file into binary format.
+JIT (Just In Time Compiler)  
+• Responsible for converting .class file into binary format.  
 
-JVM (Java Virtual Machine)
-• Responsible for executing the Java program.
+JVM (Java Virtual Machine)  
+• Responsible for executing the Java program.  
 
-JRE (Java Runtime Environment)
-• Provides the environment required to run Java programs.
+JRE (Java Runtime Environment)  
+• Provides the environment required to run Java programs.  
 
-JDK (Java Development Kit)
-• Contains all libraries and development tools required to build Java applications.
+JDK (Java Development Kit)  
+• Contains all libraries and development tools required to build Java applications.  
 
-• All Java programs execute from left to right.
-• Execution also follows top to bottom order.
+• All Java programs execute from left to right.  
+• Execution also follows top to bottom order.  
 
