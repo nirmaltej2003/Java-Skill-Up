@@ -150,68 +150,286 @@ Comments are used to provide additional information for the Java program.
 
 1️⃣ **Single line comments**
 
-// This is a single line comment
+    // This is a single line comment
 
 2️⃣ Block comments
 
-/* This is a block comment */
+    /* This is a block comment */
 
 ----------------------------------------
-Java Program Flow
+⭐ Java Program Flow
 ----------------------------------------
 
-• We write the program using EditPlus / Notepad.  
-• This program is called Source Code.  
-• Source code is written in a human-readable format.  
+- We write the program using EditPlus / Notepad.
+- This program is called **Source Code**.
+- Source code is written in a human-readable format.
 
-• To convert human-readable code into machine-readable code, we use the Command Prompt.  
-• Two main operations are performed:  
-  1. javac (Java Compiler)  
-  2. java (Java Interpreter)  
+- To convert human-readable code into machine-readable code, we use the **Command Prompt**.
+- Two main operations are performed:
+  1. javac (Java Compiler)
+  2. java (Java Interpreter)
 
-• After writing the program, save the file with the .java extension.  
-• Save the file in the following path:  
-        C:/Program Files/Java/JDK1.8/bin  
+- After writing the program, save the file with the `.java` extension.
+- Save the file in the following path:
+  
+  C:/Program Files/Java/JDK1.8/bin
 
-• The .java file is given as input to the compiler.  
-• The compiler performs the following checks:  
-  1. Syntax checking  
-  2. Rule validation  
-  3. Translation from .java file to .class file  
+- The `.java` file is given as input to the compiler.
+- The compiler performs the following checks:
+  1. Syntax checking
+  2. Rule validation
+  3. Translation from `.java` file to `.class` file
 
-• If any syntax or rule violation occurs, a Compile Time Error is generated.  
-• If there are no errors, a .class file is generated.  
+- If any syntax or rule violation occurs, a **Compile Time Error** is generated.
+- If there are no errors, a `.class` file is generated.
 
-• The .class file is an Intermediate Code.  
-• It is in Byte Code format.  
-• Byte code is not understandable by humans or machines directly.  
+- The `.class` file is an **Intermediate Code**.
+- It is in **Byte Code** format.
+- Byte code is not understandable by humans or machines directly.
 
-• The .class file is given as input to the Java Interpreter.  
-• The interpreter performs the following actions:  
-  1. Reads the code line by line  
-  2. Executes the program using JVM  
-  3. Translates byte code into binary language  
+- The `.class` file is given as input to the Java Interpreter.
+- The interpreter performs the following actions:
+  1. Reads the code line by line
+  2. Executes the program using JVM
+  3. Translates byte code into binary language
 
-• If abnormal statements are found (example: 1/0),  
-  Java throws a Run Time Error.  
-• Example of runtime error: ArithmeticException.  
+- If abnormal statements are found (example: `1/0`),
+  Java throws a **Run Time Error**.
+- Example of runtime error: `ArithmeticException`.
 
 ----------------------------------------
-Java Components
+⭐ Java Components
 ----------------------------------------
 
-JIT (Just In Time Compiler)  
-• Responsible for converting .class file into binary format.  
+JIT (Just In Time Compiler)
+- Responsible for converting `.class` file into binary format.
 
-JVM (Java Virtual Machine)  
-• Responsible for executing the Java program.  
+JVM (Java Virtual Machine)
+- Responsible for executing the Java program.
 
-JRE (Java Runtime Environment)  
-• Provides the environment required to run Java programs.  
+JRE (Java Runtime Environment)
+- Provides the environment required to run Java programs.
 
-JDK (Java Development Kit)  
-• Contains all libraries and development tools required to build Java applications.  
+JDK (Java Development Kit)
+- Contains all libraries and development tools required to build Java applications.
 
-• All Java programs execute from left to right.  
-• Execution also follows top to bottom order.  
+----------------------------------------
 
+- All Java programs execute from **left to right**.
+- Execution also follows **top to bottom** order.
+
+------------------------------------------
+# ⭐ JAVA
+
+Java is a programming language used to develop software applications.  
+It is an Object-Oriented Programming (OOP) language.
+
+---
+
+## ⭐ Java Features
+
+- Secure language  
+- Robust  
+- Platform independent  
+- High performance  
+- Compiled and interpreted  
+- Multithreaded  
+- Object-oriented  
+- Polyglot (programs written using Java syntax can interoperate with other languages)
+
+---
+
+## ⭐ Types in Java
+
+Java has four types:
+
+1. Class  
+2. Interface  
+3. Enum  
+4. Annotation  
+
+---
+
+## 1. Class
+
+A class is a blueprint or template used to create objects.
+
+### Example: Program to print "Hello Java"
+
+    
+    class Sample {
+        public static void main(String[] args) {
+            System.out.println("Hello Java");
+        }
+    }
+-----------------------------------------
+Compilation Syntax
+
+    javac filename.java
+
+
+Example:
+
+    javac Sample.java
+
+Interpretation Syntax
+
+    java filename
+
+
+Example:
+
+    java Sample
+-------------------------------------------
+Example: Printing Different Data Types
+
+    class Sample {
+        public static void main(String[] args) {
+            System.out.println(20);
+            System.out.println(20.56);
+            System.out.println('A');
+            System.out.println("Java");
+            System.out.println(true);
+        }
+    }
+
+---------------------------------------------
+
+Example: Program to Add Two Numbers
+
+    class Sample {
+        public static void main(String[] args) {
+            System.out.println(20 + 20);
+            System.out.println("The value is " + 20);
+            System.out.println(20 + " is the value");
+            System.out.println(20 + 20 + " is the value");
+            System.out.println("The value is " + 20 + 20);
+            System.out.println("The value is " + (20 + 20));
+        }
+}
+-------------------------------------------------------
+⭐ Variables
+-------------------------------------------------------
+
+A variable is a named memory location used to store data.  
+The value of a variable can change multiple times during execution.
+
+----------------------------------------
+⭐ Types of Variables
+----------------------------------------
+
+1. Primitive Data Types
+
+- byte  
+- short  
+- int  
+- long  
+- float  
+- double  
+- char  
+- boolean  
+
+2. Non-Primitive (Reference) Data Types
+
+- Arrays  
+- String  
+- Any class type  
+--------------------------------------------------------
+**Variable Declaration**
+
+    datatype variableName;
+
+
+Example:
+
+    int a;
+
+**Variable Initialization**
+
+    variableName = value;
+
+
+Example:
+
+    a = 10;
+
+**Variable Utilization**
+
+    System.out.println(a);
+
+
+Output:
+
+    10
+
+**Declaration and Initialization in a Single Line**
+
+    int a = 10;
+
+**Variable Re-initialization**
+
+    int y = 80;
+    y = 100;
+    System.out.println(y);
+
+
+Output:
+
+    100
+
+**Copying Value from One Variable to Another**
+
+    int a = 20;
+    int b = a;
+    
+    System.out.println(a);
+    System.out.println(b);
+
+
+Output:
+
+    20
+    20
+
+-------------------------------------------------------
+⭐ Classification of Variables
+-------------------------------------------------------
+
+1. Local Variables
+
+- Declared inside a method  
+- Scope is limited to the method  
+- Cannot be static or non-static  
+- Do not have default values  
+- Must be initialized before use  
+
+
+Example:
+
+    class Sample {
+        public static void main(String[] args) {
+            int x = 20;
+            System.out.println(x);
+        }
+    }
+----------------------------------------------------------
+
+2. Global Variables (Class Variables)
+
+
+- Declared outside methods and inside a class  
+- Scope is throughout the class  
+- Can be static or non-static  
+- Have default values  
+- Cannot be re-initialized directly outside methods  
+
+
+Example:
+
+    class Sample {
+        static int a = 20;
+    
+        public static void main(String[] args) {
+            System.out.println(a);
+        }
+    }
