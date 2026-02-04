@@ -335,7 +335,7 @@ The value of a variable can change multiple times during execution.
 - String  
 - Any class type  
 --------------------------------------------------------
-**Variable Declaration**
+a) **Variable Declaration**
 
     datatype variableName;
 
@@ -344,7 +344,7 @@ Example:
 
     int a;
 
-**Variable Initialization**
+b) **Variable Initialization**
 
     variableName = value;
 
@@ -353,7 +353,7 @@ Example:
 
     a = 10;
 
-**Variable Utilization**
+c) **Variable Utilization**
 
     System.out.println(a);
 
@@ -362,11 +362,11 @@ Output:
 
     10
 
-**Declaration and Initialization in a Single Line**
+d) **Declaration and Initialization in a Single Line**
 
     int a = 10;
 
-**Variable Re-initialization**
+e) **Variable Re-initialization**
 
     int y = 80;
     y = 100;
@@ -377,7 +377,7 @@ Output:
 
     100
 
-**Copying Value from One Variable to Another**
+f) **Copying Value from One Variable to Another**
 
     int a = 20;
     int b = a;
