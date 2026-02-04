@@ -152,7 +152,7 @@ Comments are used to provide additional information for the Java program.
 
     // This is a single line comment
 
-2️⃣ Block comments
+2️⃣ **Block comments**
 
     /* This is a block comment */
 
@@ -241,7 +241,7 @@ It is an Object-Oriented Programming (OOP) language.
 
 ## ⭐ Types in Java
 
-Java has four types:
+**Java has four types:**
 
 1. Class  
 2. Interface  
@@ -250,7 +250,7 @@ Java has four types:
 
 ---
 
-## 1. Class
+## 1.** Class**
 
 A class is a blueprint or template used to create objects.
 
@@ -263,7 +263,7 @@ A class is a blueprint or template used to create objects.
         }
     }
 -----------------------------------------
-Compilation Syntax
+**Compilation Syntax**
 
     javac filename.java
 
@@ -272,7 +272,7 @@ Example:
 
     javac Sample.java
 
-Interpretation Syntax
+**Interpretation Syntax**
 
     java filename
 
@@ -318,7 +318,7 @@ The value of a variable can change multiple times during execution.
 ⭐ Types of Variables
 ----------------------------------------
 
-1. Primitive Data Types
+1. **Primitive Data Types**
 
 - byte  
 - short  
@@ -329,7 +329,7 @@ The value of a variable can change multiple times during execution.
 - char  
 - boolean  
 
-2. Non-Primitive (Reference) Data Types
+2.** Non-Primitive (Reference) Data Types**
 
 - Arrays  
 - String  
@@ -395,7 +395,7 @@ Output:
 ⭐ Classification of Variables
 -------------------------------------------------------
 
-1. Local Variables
+1. **Local Variables**
 
 - Declared inside a method  
 - Scope is limited to the method  
@@ -414,7 +414,7 @@ Example:
     }
 ----------------------------------------------------------
 
-2. Global Variables (Class Variables)
+2. **Global Variables (Class Variables)**
 
 
 - Declared outside methods and inside a class  
