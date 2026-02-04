@@ -250,7 +250,7 @@ It is an Object-Oriented Programming (OOP) language.
 
 ---
 
-## 1.** Class**
+## 1. Class
 
 A class is a blueprint or template used to create objects.
 
@@ -329,7 +329,7 @@ The value of a variable can change multiple times during execution.
 - char  
 - boolean  
 
-2.** Non-Primitive (Reference) Data Types**
+2.  **Non-Primitive Data Types**
 
 - Arrays  
 - String  
