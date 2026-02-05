@@ -433,3 +433,158 @@ Example:
             System.out.println(a);
         }
     }
+
+----------------------------------------------------------------
+| Primitive Data Type | Default Value | Size (in bits) | Range |
+|--------------------|--------------|---------------|-------|
+| byte               | 0            | 8             | -128 to 127 |
+| short              | 0            | 16            | -32,768 to 32,767 |
+| int                | 0            | 32            | -2³¹ to 2³¹ - 1 |
+| long               | 0L           | 64            | -2⁶³ to 2⁶³ - 1 |
+| float              | 0.0f         | 32            | ~1.4e-45 to 3.4e38 |
+| double             | 0.0d         | 64            | ~4.9e-324 to 1.8e308 |
+| char               | '\u0000'     | 16            | 0 to 65,535 |
+| boolean            | false        | 1             | true or false |
+| String*            | null         | -             | - |
+
+---------------------------------------------------------------------
+In a class , we have 3 members 
+1. variables : it is used to store some data or values. 
+2. methods : it is  used to perform some operations. 
+3. constructor : it is used to initialize variables.
+----------------------------------------------------------------------
+⭐ METHODS 
+
+--------------------------------------------------
+Definition
+--------------------------------------------------
+A method is a block of statements which gets executed whenever it is
+called or invoked.
+
+--------------------------------------------------
+General Syntax
+--------------------------------------------------
+access_specifier  modifier  return_type  method_name(arguments)
+{
+    // method body
+}
+
+--------------------------------------------------
+Access Specifiers
+--------------------------------------------------
+- public
+- private
+- protected
+- default (package-level)
+
+--------------------------------------------------
+Modifiers
+--------------------------------------------------
+- static
+- non-static
+
+--------------------------------------------------
+Return Types
+--------------------------------------------------
+- void
+- int
+- double
+- char
+- String
+- float
+- boolean
+- class type
+
+--------------------------------------------------
+Method Name
+--------------------------------------------------
+- Identifier
+
+--------------------------------------------------
+Arguments / Parameters
+--------------------------------------------------
+- char
+- String
+- float
+- boolean
+- class type
+
+[ Arguments are optional ]
+
+--------------------------------------------------
+Syntax for Arguments
+--------------------------------------------------
+datatype variable_name
+
+Examples:
+(int a)
+(int a, double b)
+
+--------------------------------------------------
+⭐ Final Variable
+--------------------------------------------------
+Any variable declared using the keyword final is called a final variable.
+The value of a final variable cannot be changed.
+
+--------------------------------------------------
+Example: Integer vs Decimal Division
+--------------------------------------------------
+System.out.println(1 / 2);     // Output: 0  (both are integers)
+System.out.println(1 / 2.0);   // Output: 0.5 (one is decimal)
+
+--------------------------------------------------
+Example: Method Without Parameters
+--------------------------------------------------
+    class Circle {
+        static void area() {
+            final double pi = 3.142;
+            int r = 4;
+            double result = pi * r * r;
+            System.out.println(result);
+        }
+    
+        public static void main(String[] args) {
+            area();
+        }
+    }
+
+--------------------------------------------------
+Method with Parameters
+--------------------------------------------------
+Whenever we want to give input to a method, we use a method with parameters.
+
+  Example:
+  
+    class Circle {
+        static void area(int r) {
+            final double pi = 3.142;
+            double result = pi * r * r;
+            System.out.println(result);
+        }
+    
+        public static void main(String[] args) {
+            area(6);
+        }
+    }
+
+--------------------------------------------------
+Method with Return Type
+--------------------------------------------------
+Whenever we want to use the result for further operations,
+we use a method with a return type.
+
+Example:
+
+    class Circle {
+        static double area() {
+            int r = 5;
+            final double pi = 3.142;
+            double result = pi * r * r;
+            return result;
+        }
+    
+        public static void main(String[] args) {
+            double x = area();
+            System.out.println("Area is " + x);
+        }
+    }
