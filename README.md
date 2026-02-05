@@ -453,7 +453,10 @@ In a class , we have 3 members
 2. methods : it is  used to perform some operations. 
 3. constructor : it is used to initialize variables.
 ----------------------------------------------------------------------
-⭐ METHODS 
+
+--------------------------------------------------
+⭐ Methods
+--------------------------------------------------
 
 --------------------------------------------------
 Definition
@@ -464,10 +467,7 @@ called or invoked.
 --------------------------------------------------
 General Syntax
 --------------------------------------------------
-access_specifier  modifier  return_type  method_name(arguments)
-{
-    // method body
-}
+    {access_specifier}  {modifier}  {return_type}  {method_name(arguments)}
 
 --------------------------------------------------
 Access Specifiers
@@ -530,6 +530,7 @@ The value of a final variable cannot be changed.
 Example: Integer vs Decimal Division
 --------------------------------------------------
 System.out.println(1 / 2);     // Output: 0  (both are integers)
+
 System.out.println(1 / 2.0);   // Output: 0.5 (one is decimal)
 
 --------------------------------------------------
