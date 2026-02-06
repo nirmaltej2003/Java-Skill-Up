@@ -583,9 +583,171 @@ Example:
             double result = pi * r * r;
             return result;
         }
-    
         public static void main(String[] args) {
             double x = area();
             System.out.println("Area is " + x);
         }
     }
+
+
+--------------------------------------------------
+⭐ Conditional Statements
+--------------------------------------------------
+
+To check for logical conditions, we use conditional statements.
+
+--------------------------------------------------
+
+1. If condition
+
+Syntax:
+
+    if (condition)
+    {
+        statements;
+    }
+
+Example:
+
+    class Demo {
+        public static void main(String[] args) {
+            if (5 > 3) {
+                System.out.println("hi");
+            }
+        }
+    }
+
+--------------------------------------------------
+
+2. If – else condition
+
+Syntax:
+
+    if (condition)
+    {
+        statements;
+    }
+    else
+    {
+        statements;
+    }
+
+Example:
+
+    class Demo {
+        public static void main(String[] args) {
+            if (5 > 30) {
+                System.out.println("hi");
+            } else {
+                System.out.println("hello");
+            }
+        }
+    }
+
+--------------------------------------------------
+
+3. Else – if condition
+
+Syntax:
+
+    if (condition)
+    {
+        statements;
+    }
+    else if (condition)
+    {
+        statements;
+    }
+    else
+    {
+        statements;
+    }
+
+Example:
+
+    class Demo {
+        public static void main(String[] args) {
+            if (5 > 30) {
+                System.out.println("hi");
+            } else if (5 > 2) {
+                System.out.println("hello");
+            } else {
+                System.out.println("cool");
+            }
+        }
+    }
+
+--------------------------------------------------
+
+4. Nested if – else condition
+
+Syntax:
+
+    if (condition)
+    {
+        if (condition)
+        {
+            statements;
+        }
+        else
+        {
+            statements;
+        }
+    }
+    else
+    {
+        statements;
+    }
+
+--------------------------------------------------
+
+⭐ Loops
+
+Whenever the starting and ending range is given, we use a FOR loop.
+
+--------------------------------------------------
+
+For Loop
+
+Syntax:
+
+    for (initialization; condition; increment/decrement)
+    {
+        statements;
+    }
+
+--------------------------------------------------
+
+Example 1:
+    
+    for (int i = 1; i <= 4; i++) {
+        System.out.println("cool");
+    }
+    // Output: cool, cool, cool, cool
+
+--------------------------------------------------
+
+Example 2:
+
+    for (int i = 1; i <= 10; i++) {
+        System.out.println(i);
+    }
+    // Output: 1 2 3 4 5 6 7 8 9 10
+
+--------------------------------------------------
+
+Example 3:
+
+    for (int i = 10; i >= 1; i--) {
+        System.out.println(i);
+    }
+    // Output: 10 9 8 7 6 5 4 3 2 1
+
+--------------------------------------------------
+
+Example 4: Without using semicolon inside the loop body
+
+    for (int i = 1; i <= n; System.out.println(i)) {
+        i++;
+    }
+
