@@ -161,7 +161,7 @@ Comments are used to provide additional information for the Java program.
 ----------------------------------------
 
 
-![image](https://github.com/nirmaltej2003/Job-Portal/blob/main/jobportal/img1.png?raw=true)
+![image](https://github.com/nirmaltej2003/Java-Skill-Up/blob/main/Screenshot%202026-02-07%20084548.png)
 
 - We write the program using EditPlus / Notepad.
 - This program is called **Source Code**.
