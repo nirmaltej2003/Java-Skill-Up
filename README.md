@@ -160,6 +160,9 @@ Comments are used to provide additional information for the Java program.
 ⭐ Java Program Flow
 ----------------------------------------
 
+
+![image](https://github.com/nirmaltej2003/Job-Portal/blob/main/jobportal/img1.png?raw=true)
+
 - We write the program using EditPlus / Notepad.
 - This program is called **Source Code**.
 - Source code is written in a human-readable format.
