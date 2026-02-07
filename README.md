@@ -204,6 +204,9 @@ Comments are used to provide additional information for the Java program.
 ⭐ Java Components
 ----------------------------------------
 
+
+![image]()
+
 JIT (Just In Time Compiler)
 - Responsible for converting `.class` file into binary format.
 
