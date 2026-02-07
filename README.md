@@ -598,7 +598,7 @@ To check for logical conditions, we use conditional statements.
 
 --------------------------------------------------
 
-1. If condition
+1. **If condition**
 
 Syntax:
 
@@ -619,7 +619,7 @@ Example:
 
 --------------------------------------------------
 
-2. If – else condition
+2. **If – else condition**
 
 Syntax:
 
@@ -646,7 +646,7 @@ Example:
 
 --------------------------------------------------
 
-3. Else – if condition
+3. **Else – if condition**
 
 Syntax:
 
@@ -679,7 +679,7 @@ Example:
 
 --------------------------------------------------
 
-4. Nested if – else condition
+4. **Nested if – else condition**
 
 Syntax:
 
@@ -699,15 +699,11 @@ Syntax:
         statements;
     }
 
---------------------------------------------------
-
+-------------------------------------------------------
 ⭐ Loops
+-------------------------------------------------------
 
-Whenever the starting and ending range is given, we use a FOR loop.
-
---------------------------------------------------
-
-For Loop
+**For Loop**
 
 Syntax:
 
@@ -749,5 +745,35 @@ Example 4: Without using semicolon inside the loop body
 
     for (int i = 1; i <= n; System.out.println(i)) {
         i++;
+    }
+
+-------------------------------------------------------
+⭐ Switch Case Statement
+-------------------------------------------------------
+
+- Switch case is used for pattern matching.
+- The particular case will be executed based on the input value.
+
+Example:
+
+    class Demo {
+        public static void main(String[] args) {
+    
+            int input = 3;
+    
+            switch (input) {
+                case 1:
+                    System.out.println("FCD");
+                    break;
+    
+                case 2:
+                    System.out.println("FC");
+                    break;
+    
+                default:
+                    System.out.println("Invalid input");
+                    break;
+            }
+        }
     }
 
