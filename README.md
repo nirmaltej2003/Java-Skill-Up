@@ -157,7 +157,7 @@ Comments are used to provide additional information for the Java program.
     /* This is a block comment */
 
 ----------------------------------------
-⭐ Java Program Flow
+⭐ Java Architecture
 ----------------------------------------
 
 
