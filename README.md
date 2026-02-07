@@ -205,7 +205,7 @@ Comments are used to provide additional information for the Java program.
 ----------------------------------------
 
 
-![image]()
+![image](https://github.com/nirmaltej2003/Java-Skill-Up/blob/main/Components%20of%20Java.png)
 
 JIT (Just In Time Compiler)
 - Responsible for converting `.class` file into binary format.
