@@ -716,52 +716,62 @@ file.
 
 Ex: B / W the classes with a method as static
 
-    class Circle {
-    static void area() {
-    final double pi = 3.142;
-    int r = 5;
-    double result = pi * r * r;
-    System.out.println("result is " + result);
+    class Circle 
+    {
+      static void area() 
+      {
+        final double pi = 3.142;
+        int r = 5;
+        double result = pi * r * r;
+        System.out.println("result is " + result);
+      }
     }
-    }
-    class Tester {
-    public static void main(String[] args) {
-    Circle.area();
-    }
+    class Tester 
+    {
+      public static void main(String[] args) 
+      {
+      Circle.area();
+      }
     }
 
 Ex: B / W the classes with a method as static with parameter
 
-    class Circle {
-    static void area(int r) {
-    final double pi = 3.142;
-    double result = pi * r * r;
-    System.out.println("result is " + result);
+    class Circle 
+    {
+      static void area(int r) 
+      {
+        final double pi = 3.142;
+        double result = pi * r * r;
+        System.out.println("result is " + result);
+      }
     }
-    }
-    
-    class Tester {
-    public static void main(String[] args) {
-    Circle.area(5);
-    }
+    class Tester 
+    {
+      public static void main(String[] args) 
+      {
+      Circle.area(5);
+      }
     }
 
 Ex: B / W the classes with a method as static with return type
 
-    class Circle {
-    static double area() {
-    int r = 5;
-    final double pi = 3.142;
-    double result = pi * r * r;
-    return result;
+    class Circle 
+    {
+      static double area() 
+      {
+        int r = 5;
+        final double pi = 3.142;
+        double result = pi * r * r;
+        return result;
+      }
     }
-    }
-    
-    class Tester {
-    public static void main(String[] args) {
-    double x = Circle.area();
-    System.out.println("area is " + x);
-    }
+    class Tester 
+    {
+      public static void main(String[] args) 
+      {
+      double x = Circle.area();
+      System.out.println("area is " + x);
+      }
     }
 
 ## NON – STATIC
@@ -776,12 +786,17 @@ Non-static member of the class.
 ➢ All the Non-static members will be stored in Heap memory.
 
 ➢ Whenever we want to access Non-static members then we should use
+
 Object.variable_name
+
 or
+
 Object.method_name
 
 Reference variable.variable_name
+
 or
+
 Reference variable.method_name
 
 Syntax:
@@ -789,6 +804,7 @@ Syntax:
     new Class_name();
 
 Ex:
+
 new Sample(); → object
 
 ➢ new operator will create random memory space into the heap memory.
@@ -818,18 +834,18 @@ variable and through that reference variable we access the values.
 
 JVM MEMORY PARTS
 
-1. Stack
+1️⃣ Stack
 - Used for execution.
 - Follows LIFO (Last In First Out).
 
-2. Heap Memory
+2️⃣ Heap Memory
 - Used to store non-static members.
 - Non-static members are created when object is created.
 
-3. Static Pool Area
+3️⃣ Static Pool Area
 - Used to store static members.
 - Static members are initialized when class loader loads the class.
 
-4. Method Area
+4️⃣ Method Area
 - Used to store method body or definition.
 - Both static and non-static method bodies are stored here.
