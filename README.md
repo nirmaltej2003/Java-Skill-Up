@@ -231,10 +231,10 @@ It is an Object-Oriented Programming (OOP) language.
 
 **Java has four types:**
 
-1️⃣ Class  
-2️⃣ Interface  
-3️⃣ Enum  
-4️⃣ Annotation  
+1. Class  
+2. Interface  
+3. Enum  
+4. Annotation  
 
 
 ## 1️⃣ Class
