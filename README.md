@@ -689,3 +689,132 @@ Example:
         }
     }
 
+## STATIC
+
+➢ Any member of the class declared with a keyword static is called as static
+member of the class.
+➢ Static is always associated with class.
+➢ Static is one copy.
+➢ All the static members will be stored in static pool area.
+➢ Whenever we want to access static members from one class to another class
+then we should use
+Class_name.variable_name();
+or
+Class_name.method_name();
+
+Note:
+➢ We can develop multiple classes in a single file.
+➢ Whichever class is having main method that class file should be filename.
+➢ For each and every class present in the file will have corresponding .class
+file.
+
+Ex: B / W the classes with a method as static
+
+    class Circle {
+    static void area() {
+    final double pi = 3.142;
+    int r = 5;
+    double result = pi * r * r;
+    System.out.println("result is " + result);
+    }
+    }
+    class Tester {
+    public static void main(String[] args) {
+    Circle.area();
+    }
+    }
+
+Ex: B / W the classes with a method as static with parameter
+
+    class Circle {
+    static void area(int r) {
+    final double pi = 3.142;
+    double result = pi * r * r;
+    System.out.println("result is " + result);
+    }
+    }
+    
+    class Tester {
+    public static void main(String[] args) {
+    Circle.area(5);
+    }
+    }
+
+Ex: B / W the classes with a method as static with return type
+
+    class Circle {
+    static double area() {
+    int r = 5;
+    final double pi = 3.142;
+    double result = pi * r * r;
+    return result;
+    }
+    }
+    
+    class Tester {
+    public static void main(String[] args) {
+    double x = Circle.area();
+    System.out.println("area is " + x);
+    }
+    }
+
+## NON – STATIC
+
+➢ Any member of the class declared without a keyword static is called as
+Non-static member of the class.
+➢ Non-static is always associated with object.
+➢ Non-static is multiple copy.
+➢ All the Non-static members will be stored in Heap memory.
+➢ Whenever we want to access Non-static members then we should use
+Object.variable_name
+or
+Object.method_name
+
+Reference variable.variable_name
+or
+Reference variable.method_name
+
+Syntax:
+
+    new Class_name();
+
+Ex:
+new Sample(); → object
+
+➢ new operator will create random memory space into the heap memory.
+➢ Constructor will initialize all the non-static members into the heap memory.
+
+## JVM MEMORY
+
+➢ Whenever class loader loads the class all the static members will get
+initialized in the static pool area.
+➢ JVM starts executing from main method in the program.
+➢ The first statement is the object creation.
+➢ Equal operator works from right to left.
+➢ New operator will create a random memory space in the heap memory.
+➢ Constructor will initialize all the non-static members into the heap memory.
+
+While creating the object itself we pass the arguments which will get
+initialized in the constructor and from constructor it will get initialized
+to the object variables.
+
+Now in the main method the object address will be stored in the reference
+variable and through that reference variable we access the values.
+
+JVM MEMORY PARTS
+
+1. Stack
+- Used for execution.
+- Follows LIFO (Last In First Out).
+
+2. Heap Memory
+- Used to store non-static members.
+- Non-static members are created when object is created.
+
+3. Static Pool Area
+- Used to store static members.
+- Static members are initialized when class loader loads the class.
+
+4. Method Area
+- Used to store method body or definition.
+- Both static and non-static method bodies are stored here.
