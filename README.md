@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="120" />
 </p>
 
-## 📜 History of Java
+## History of Java
 
 - **James Gosling** is the father of Java, and it was introduced in **1991**.
 - The software was initially named **GreenTalk**, and the team that developed it was called the **Green Team**.
@@ -13,9 +13,8 @@
 - Java is a **high-level programming language** originally developed by **Sun Microsystems** and released in **1995**.
 - Java runs on various platforms such as **Windows, macOS, and different versions of UNIX**.
 
----
 
-## 🧩 Tokens in Java
+## Tokens in Java
 
 **Token** is the smallest unit of a Java program.
 
@@ -28,7 +27,6 @@
 5. Separators  
 6. Comments  
 
----
 
 ## 1️⃣ Identifier
 
@@ -37,7 +35,6 @@ An **Identifier** is a name given to a Java program elements such as:
 - Method name
 - Variable name
 
----
 
 ## 2️⃣ Keywords
 
@@ -46,9 +43,8 @@ An **Identifier** is a name given to a Java program elements such as:
 - Java contains **50 reserved keywords**
 - Keywords cannot be used as identifiers
 
-Example keywords:
 
-## 🔑 Java Keywords (50)
+##  Java Keywords (50)
 
 | S.No | Keyword | S.No | Keyword |
 |-----:|--------|-----:|--------|
@@ -93,7 +89,6 @@ Used to represent numeric values.
 - **Decimal (Floating-Point) Literals**  
   Examples: `0.55`, `0.75`
 
----
 
 ### 2️⃣ Character Literals
 - Enclosed within **single quotes (`' '`)**
@@ -126,7 +121,6 @@ Operators are symbols used to perform operations on operands.
 | ASSIGNMENT    | Assignment        | `=`, `+=`, `-=`, `*=`, `/=`, `%=`|
 | ASSIGNMENT    | Assignment        | `&=`, `^=`, `<<=`, `>>=`, `>>>=` |
 
----
 
 ## 5. Separators
 
@@ -140,7 +134,6 @@ In Java, separators are:
 - `;` → Semicolon  
 - `,` → Comma  
 
----
 
 ## 6. Comments
 
@@ -156,9 +149,8 @@ Comments are used to provide additional information for the Java program.
 
     /* This is a block comment */
 
-----------------------------------------
-⭐ Java Architecture
-----------------------------------------
+## Java Architecture
+
 
 
 ![image](https://github.com/nirmaltej2003/Java-Skill-Up/blob/main/Screenshot%202026-02-07%20084548.png)
@@ -200,9 +192,8 @@ Comments are used to provide additional information for the Java program.
   Java throws a **Run Time Error**.
 - Example of runtime error: `ArithmeticException`.
 
-----------------------------------------
-⭐ Java Components
-----------------------------------------
+## Java Components
+
 
 
 ![image](https://github.com/nirmaltej2003/Java-Skill-Up/blob/main/Components%20of%20Java.png)
@@ -218,21 +209,13 @@ JRE (Java Runtime Environment)
 
 JDK (Java Development Kit)
 - Contains all libraries and development tools required to build Java applications.
-
-----------------------------------------
-
-- All Java programs execute from **left to right**.
-- Execution also follows **top to bottom** order.
-
-------------------------------------------
-# ⭐ JAVA
+  
+##  JAVA
 
 Java is a programming language used to develop software applications.  
 It is an Object-Oriented Programming (OOP) language.
 
----
-
-## ⭐ Java Features
+##  Java Features
 
 - Secure language  
 - Robust  
@@ -243,9 +226,8 @@ It is an Object-Oriented Programming (OOP) language.
 - Object-oriented  
 - Polyglot (programs written using Java syntax can interoperate with other languages)
 
----
+## Types in Java
 
-## ⭐ Types in Java
 
 **Java has four types:**
 
@@ -254,7 +236,6 @@ It is an Object-Oriented Programming (OOP) language.
 3. Enum  
 4. Annotation  
 
----
 
 ## 1. Class
 
@@ -286,43 +267,15 @@ Example:
 Example:
 
     java Sample
--------------------------------------------
-Example: Printing Different Data Types
 
-    class Sample {
-        public static void main(String[] args) {
-            System.out.println(20);
-            System.out.println(20.56);
-            System.out.println('A');
-            System.out.println("Java");
-            System.out.println(true);
-        }
-    }
+## Variables
 
----------------------------------------------
-
-Example: Program to Add Two Numbers
-
-    class Sample {
-        public static void main(String[] args) {
-            System.out.println(20 + 20);
-            System.out.println("The value is " + 20);
-            System.out.println(20 + " is the value");
-            System.out.println(20 + 20 + " is the value");
-            System.out.println("The value is " + 20 + 20);
-            System.out.println("The value is " + (20 + 20));
-        }
-}
--------------------------------------------------------
-⭐ Variables
--------------------------------------------------------
 
 A variable is a named memory location used to store data.  
 The value of a variable can change multiple times during execution.
 
-----------------------------------------
-⭐ Types of Variables
-----------------------------------------
+## Types of Variables
+
 
 1. **Primitive Data Types**
 
@@ -339,8 +292,9 @@ The value of a variable can change multiple times during execution.
 
 - Arrays  
 - String  
-- Any class type  
---------------------------------------------------------
+- Any class type
+  
+--------------------------------
 a) **Variable Declaration**
 
     datatype variableName;
@@ -397,9 +351,8 @@ Output:
     20
     20
 
--------------------------------------------------------
-⭐ Classification of Variables
--------------------------------------------------------
+## Classification of Variables
+
 
 1. **Local Variables**
 
@@ -418,7 +371,7 @@ Example:
             System.out.println(x);
         }
     }
-----------------------------------------------------------
+
 
 2. **Global Variables (Class Variables)**
 
@@ -440,7 +393,7 @@ Example:
         }
     }
 
-----------------------------------------------------------------
+
 | Primitive Data Type | Default Value | Size (in bits) | Range |
 |--------------------|--------------|---------------|-------|
 | byte               | 0            | 8             | -128 to 127 |
@@ -453,45 +406,32 @@ Example:
 | boolean            | false        | 1             | true or false |
 | String*            | null         | -             | - |
 
----------------------------------------------------------------------
-In a class , we have 3 members 
-1. variables : it is used to store some data or values. 
-2. methods : it is  used to perform some operations. 
-3. constructor : it is used to initialize variables.
-----------------------------------------------------------------------
+ ## Methods
 
---------------------------------------------------
-⭐ Methods
---------------------------------------------------
-
---------------------------------------------------
-Definition
---------------------------------------------------
 A method is a block of statements which gets executed whenever it is
 called or invoked.
 
---------------------------------------------------
-General Syntax
---------------------------------------------------
+a) General Syntax
+
     {access_specifier}  {modifier}  {return_type}  {method_name(arguments)}
 
---------------------------------------------------
-Access Specifiers
---------------------------------------------------
+
+b) Access Specifiers
+
 - public
 - private
 - protected
 - default (package-level)
 
---------------------------------------------------
-Modifiers
---------------------------------------------------
+
+c) Modifiers
+
 - static
 - non-static
 
---------------------------------------------------
-Return Types
---------------------------------------------------
+
+d) Return Types
+
 - void
 - int
 - double
@@ -501,14 +441,14 @@ Return Types
 - boolean
 - class type
 
---------------------------------------------------
-Method Name
---------------------------------------------------
+
+e) Method Name
+
 - Identifier
 
---------------------------------------------------
-Arguments / Parameters
---------------------------------------------------
+
+f) Arguments / Parameters
+
 - char
 - String
 - float
@@ -517,29 +457,12 @@ Arguments / Parameters
 
 [ Arguments are optional ]
 
---------------------------------------------------
-Syntax for Arguments
---------------------------------------------------
-datatype variable_name
 
-Examples:
-(int a)
-(int a, double b)
+## Final Variable
 
---------------------------------------------------
-⭐ Final Variable
---------------------------------------------------
 Any variable declared using the keyword final is called a final variable.
 The value of a final variable cannot be changed.
 
---------------------------------------------------
-Example: Integer vs Decimal Division
---------------------------------------------------
-System.out.println(1 / 2);     // Output: 0  (both are integers)
-
-System.out.println(1 / 2.0);   // Output: 0.5 (one is decimal)
-
---------------------------------------------------
 Example: Method Without Parameters
 --------------------------------------------------
     class Circle {
@@ -555,7 +478,6 @@ Example: Method Without Parameters
         }
     }
 
---------------------------------------------------
 Method with Parameters
 --------------------------------------------------
 Whenever we want to give input to a method, we use a method with parameters.
@@ -574,7 +496,6 @@ Whenever we want to give input to a method, we use a method with parameters.
         }
     }
 
---------------------------------------------------
 Method with Return Type
 --------------------------------------------------
 Whenever we want to use the result for further operations,
@@ -596,13 +517,11 @@ Example:
     }
 
 
---------------------------------------------------
-⭐ Conditional Statements
---------------------------------------------------
+## Conditional Statements
+
 
 To check for logical conditions, we use conditional statements.
 
---------------------------------------------------
 
 1. **If condition**
 
@@ -623,7 +542,7 @@ Example:
         }
     }
 
---------------------------------------------------
+
 
 2. **If – else condition**
 
@@ -650,7 +569,7 @@ Example:
         }
     }
 
---------------------------------------------------
+
 
 3. **Else – if condition**
 
@@ -683,7 +602,7 @@ Example:
         }
     }
 
---------------------------------------------------
+
 
 4. **Nested if – else condition**
 
@@ -705,9 +624,9 @@ Syntax:
         statements;
     }
 
--------------------------------------------------------
-⭐ Loops
--------------------------------------------------------
+
+## Loops
+
 
 **For Loop**
 
@@ -718,7 +637,7 @@ Syntax:
         statements;
     }
 
---------------------------------------------------
+
 
 Example 1:
     
@@ -727,7 +646,7 @@ Example 1:
     }
     // Output: cool, cool, cool, cool
 
---------------------------------------------------
+
 
 Example 2:
 
@@ -736,7 +655,7 @@ Example 2:
     }
     // Output: 1 2 3 4 5 6 7 8 9 10
 
---------------------------------------------------
+
 
 Example 3:
 
@@ -745,7 +664,7 @@ Example 3:
     }
     // Output: 10 9 8 7 6 5 4 3 2 1
 
---------------------------------------------------
+
 
 Example 4: Without using semicolon inside the loop body
 
@@ -753,9 +672,8 @@ Example 4: Without using semicolon inside the loop body
         i++;
     }
 
--------------------------------------------------------
-⭐ Switch Case Statement
--------------------------------------------------------
+## Switch Case Statement
+
 
 - Switch case is used for pattern matching.
 - The particular case will be executed based on the input value.
