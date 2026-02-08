@@ -97,7 +97,7 @@ Used to represent numeric values.
 Examples:
 'A', '5', '$', ' '
 
-## 4. Operators in Java
+## 4️⃣ Operators in Java
 
 Operators are symbols used to perform operations on operands.
 
@@ -122,7 +122,7 @@ Operators are symbols used to perform operations on operands.
 | ASSIGNMENT    | Assignment        | `&=`, `^=`, `<<=`, `>>=`, `>>>=` |
 
 
-## 5. Separators
+## 5️⃣ Separators
 
 Separators are used to separate the given code.
 
@@ -135,7 +135,7 @@ In Java, separators are:
 - `,` → Comma  
 
 
-## 6. Comments
+## 6️⃣ Comments
 
 Comments are used to provide additional information for the Java program.
 
