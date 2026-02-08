@@ -231,13 +231,13 @@ It is an Object-Oriented Programming (OOP) language.
 
 **Java has four types:**
 
-1. Class  
-2. Interface  
-3. Enum  
-4. Annotation  
+1️⃣ Class  
+2️⃣ Interface  
+3️⃣ Enum  
+4️⃣ Annotation  
 
 
-## 1. Class
+## 1️⃣ Class
 
 A class is a blueprint or template used to create objects.
 
@@ -277,7 +277,7 @@ The value of a variable can change multiple times during execution.
 ## Types of Variables
 
 
-1. **Primitive Data Types**
+1️⃣ **Primitive Data Types**
 
 - byte  
 - short  
@@ -288,7 +288,7 @@ The value of a variable can change multiple times during execution.
 - char  
 - boolean  
 
-2.  **Non-Primitive Data Types**
+2️⃣  **Non-Primitive Data Types**
 
 - Arrays  
 - String  
@@ -354,7 +354,7 @@ Output:
 ## Classification of Variables
 
 
-1. **Local Variables**
+1️⃣ **Local Variables**
 
 - Declared inside a method  
 - Scope is limited to the method  
@@ -373,7 +373,7 @@ Example:
     }
 
 
-2. **Global Variables (Class Variables)**
+2️⃣ **Global Variables (Class Variables)**
 
 
 - Declared outside methods and inside a class  
@@ -393,18 +393,6 @@ Example:
         }
     }
 
-
-| Primitive Data Type | Default Value | Size (in bits) | Range |
-|--------------------|--------------|---------------|-------|
-| byte               | 0            | 8             | -128 to 127 |
-| short              | 0            | 16            | -32,768 to 32,767 |
-| int                | 0            | 32            | -2³¹ to 2³¹ - 1 |
-| long               | 0L           | 64            | -2⁶³ to 2⁶³ - 1 |
-| float              | 0.0f         | 32            | ~1.4e-45 to 3.4e38 |
-| double             | 0.0d         | 64            | ~4.9e-324 to 1.8e308 |
-| char               | '\u0000'     | 16            | 0 to 65,535 |
-| boolean            | false        | 1             | true or false |
-| String*            | null         | -             | - |
 
  ## Methods
 
@@ -523,7 +511,7 @@ Example:
 To check for logical conditions, we use conditional statements.
 
 
-1. **If condition**
+1️⃣ **If condition**
 
 Syntax:
 
@@ -544,7 +532,7 @@ Example:
 
 
 
-2. **If – else condition**
+2️⃣ **If – else condition**
 
 Syntax:
 
@@ -571,7 +559,7 @@ Example:
 
 
 
-3. **Else – if condition**
+3️⃣ **Else – if condition**
 
 Syntax:
 
@@ -604,7 +592,7 @@ Example:
 
 
 
-4. **Nested if – else condition**
+4️⃣ **Nested if – else condition**
 
 Syntax:
 
@@ -639,7 +627,7 @@ Syntax:
 
 
 
-Example 1:
+Example 1️⃣:
     
     for (int i = 1; i <= 4; i++) {
         System.out.println("cool");
@@ -648,7 +636,7 @@ Example 1:
 
 
 
-Example 2:
+Example 2️⃣:
 
     for (int i = 1; i <= 10; i++) {
         System.out.println(i);
@@ -657,7 +645,7 @@ Example 2:
 
 
 
-Example 3:
+Example 3️⃣:
 
     for (int i = 10; i >= 1; i--) {
         System.out.println(i);
@@ -666,7 +654,7 @@ Example 3:
 
 
 
-Example 4: Without using semicolon inside the loop body
+Example 4️⃣: Without using semicolon inside the loop body
 
     for (int i = 1; i <= n; System.out.println(i)) {
         i++;
