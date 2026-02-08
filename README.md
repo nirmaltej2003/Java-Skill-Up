@@ -809,6 +809,7 @@ Ex:
 new Sample(); → object
 
 ➢ new operator will create random memory space into the heap memory.
+
 ➢ Constructor will initialize all the non-static members into the heap memory.
 
 ## JVM MEMORY
@@ -828,11 +829,11 @@ initialized in the static pool area.
 
 ➢ Constructor will initialize all the non-static members into the heap memory.
 
-While creating the object itself we pass the arguments which will get
+➢ While creating the object itself we pass the arguments which will get
 initialized in the constructor and from constructor it will get initialized
 to the object variables.
 
-Now in the main method the object address will be stored in the reference
+➢ Now in the main method the object address will be stored in the reference
 variable and through that reference variable we access the values.
 
 ## JVM MEMORY PARTS
