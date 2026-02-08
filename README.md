@@ -693,9 +693,13 @@ Example:
 
 ➢ Any member of the class declared with a keyword static is called as static
 member of the class.
+
 ➢ Static is always associated with class.
+
 ➢ Static is one copy.
+
 ➢ All the static members will be stored in static pool area.
+
 ➢ Whenever we want to access static members from one class to another class
 then we should use
 Class_name.variable_name();
@@ -704,7 +708,9 @@ Class_name.method_name();
 
 Note:
 ➢ We can develop multiple classes in a single file.
+
 ➢ Whichever class is having main method that class file should be filename.
+
 ➢ For each and every class present in the file will have corresponding .class
 file.
 
@@ -762,9 +768,13 @@ Ex: B / W the classes with a method as static with return type
 
 ➢ Any member of the class declared without a keyword static is called as
 Non-static member of the class.
+
 ➢ Non-static is always associated with object.
+
 ➢ Non-static is multiple copy.
+
 ➢ All the Non-static members will be stored in Heap memory.
+
 ➢ Whenever we want to access Non-static members then we should use
 Object.variable_name
 or
@@ -788,10 +798,15 @@ new Sample(); → object
 
 ➢ Whenever class loader loads the class all the static members will get
 initialized in the static pool area.
+
 ➢ JVM starts executing from main method in the program.
+
 ➢ The first statement is the object creation.
+
 ➢ Equal operator works from right to left.
+
 ➢ New operator will create a random memory space in the heap memory.
+
 ➢ Constructor will initialize all the non-static members into the heap memory.
 
 While creating the object itself we pass the arguments which will get
