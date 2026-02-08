@@ -196,7 +196,7 @@ Comments are used to provide additional information for the Java program.
 
 
 
-![image](https://github.com/nirmaltej2003/Java-Skill-Up/blob/main/Components%20of%20Java.png)
+![image](https://github.com/nirmaltej2003/Java-Skill-Up/blob/main/Screenshot%202026-02-08%20110633.png)
 
 JIT (Just In Time Compiler)
 - Responsible for converting `.class` file into binary format.
@@ -707,6 +707,7 @@ or
 Class_name.method_name();
 
 Note:
+
 ➢ We can develop multiple classes in a single file.
 
 ➢ Whichever class is having main method that class file should be filename.
@@ -812,6 +813,8 @@ new Sample(); → object
 
 ## JVM MEMORY
 
+![image](https://github.com/nirmaltej2003/Java-Skill-Up/blob/main/Screenshot%202026-02-08%20111044.png)
+
 ➢ Whenever class loader loads the class all the static members will get
 initialized in the static pool area.
 
@@ -832,7 +835,7 @@ to the object variables.
 Now in the main method the object address will be stored in the reference
 variable and through that reference variable we access the values.
 
-JVM MEMORY PARTS
+## JVM MEMORY PARTS
 
 1️⃣ Stack
 - Used for execution.
