@@ -853,3 +853,150 @@ variable and through that reference variable we access the values.
 4️⃣ Method Area
 - Used to store method body or definition.
 - Both static and non-static method bodies are stored here.
+
+## REFERENCE VARIABLE
+
+A reference variable is a special type of variable used to store the address of an object.
+
+A reference variable can hold:
+- null
+- object address
+
+
+## Reference Variable Declaration
+
+Syntax:    
+
+    class_name reference_variable;
+
+Example:
+
+    int a;
+    Tester t1;
+
+
+
+## Reference Variable Initialization
+
+Syntax:
+
+    reference_variable = object;
+
+Example:
+
+    t1 = new Tester();
+
+
+## Reference Variable Declaration and Initialization
+
+Syntax:
+
+    class_name reference_variable = object;
+
+This is called homogeneous object creation.
+
+Example:
+
+    Tester t1 = new Tester();
+
+
+## Non-Static to Static Using Reference Variable
+
+    class Circle {
+        void area() {
+            final double pi = 3.142;
+            int r = 4;
+            double result = pi * r * r;
+            System.out.println(result);
+        }
+    
+        public static void main(String[] args) {
+            Circle c1 = new Circle();
+            c1.area();
+        }
+    }
+    
+
+Important Note:
+
+Multiple objects can be stored in multiple reference variables.
+Changes made to one object will not affect other objects.
+
+Ref1  -> address -> object
+Ref2  -> address -> object
+
+
+## Example: Different Objects, Different Addresses
+
+    class Demo1 {
+        int a = 10;
+    
+        public static void main(String[] args) {
+            Demo1 d1 = new Demo1();
+            System.out.println(d1);
+    
+            Demo1 d2 = new Demo1();
+            System.out.println(d2);
+        }
+    }
+
+Output:
+
+    Demo1@15db9742
+    Demo1@06d69c
+
+
+Note:
+
+Whenever we print a reference variable, it prints the object address.
+
+Fully Qualified Path Format:
+
+package_name.class_name@hexadecimal_value
+
+Example:
+
+Demo1@1bcfc76
+
+
+## Example: Same Object, Same Address
+
+    class Demo1 {
+        int a = 10;
+    
+        public static void main(String[] args) {
+            Demo1 d1 = new Demo1();
+            Demo1 d2 = d1;
+    
+            System.out.println(d1);
+            System.out.println(d2);
+        }
+    }
+
+Output:
+
+    Demo1@15db9742
+    Demo1@15db9742
+
+
+## COMPOSITION / AGGREGATION
+
+A class having an object of another class is called Composition.
+It is also known as "Has-A Relationship".
+
+## Example of Composition:
+
+    class Tester {
+        void add() {
+            System.out.println("hii");
+        }
+    }
+    
+    class Sample {
+        public static void main(String[] args) {
+            Tester t1 = new Tester();
+            t1.add();
+        }
+    }
+
+
