@@ -999,4 +999,89 @@ It is also known as "Has-A Relationship".
         }
     }
 
+# BLOCKS IN JAVA
+
+Blocks are used to initialize variables and execute statements at specific times in a Java program.
+There are two types of blocks in Java: Static Initialization Block (SIB) and Instance Initialization Block (IIB).
+
+1️⃣ Static Initialization Block (SIB):
+
+Any block which is declared using the keyword static is called a Static Initialization Block.
+
+SIB is used to initialize static members.
+
+SIB gets executed before the main method.
+
+We can have multiple SIBs and they execute in sequential order.
+
+Syntax:
+
+    static {
+        // statements
+    }
+
+Example:
+
+    class Demo {
+        static int a;
+    
+        static {
+            a = 10;
+        }
+    
+        public static void main(String[] args) {
+            System.out.println(a);
+        }
+    }
+
+Output:
+
+    10
+
+2️⃣ Instance Initialization Block (IIB):
+
+Any block which is declared without the keyword static is called an Instance Initialization Block.
+
+IIB is used to initialize non-static members.
+
+IIB gets executed whenever an object is created.
+
+We can have multiple IIBs and they execute in sequential order.
+
+Syntax:
+
+    {
+        // statements
+    }
+
+Example:
+
+    class Demo {
+    
+        {
+            System.out.println("---- IIB ----");
+        }
+    
+        public static void main(String[] args) {
+            new Demo();
+        }
+    }
+
+Output:
+
+    ---- IIB -----
+
+Execution Order:
+
+1. Static Initialization Block
+2. main() method starts
+3. Instance Initialization Block
+4. Constructor (if present)
+
+Key Points:
+
+SIB executes once when the class is loaded.
+IIB executes every time an object is created.
+Both blocks execute before the constructor.
+Execution follows top-to-bottom order.
 
