@@ -1004,7 +1004,7 @@ It is also known as "Has-A Relationship".
 Blocks are used to initialize variables and execute statements at specific times in a Java program.
 There are two types of blocks in Java: Static Initialization Block (SIB) and Instance Initialization Block (IIB).
 
-1️⃣ Static Initialization Block (SIB):
+1️⃣ **Static Initialization Block (SIB):**
 
 Any block which is declared using the keyword static is called a Static Initialization Block.
 
@@ -1038,7 +1038,7 @@ Output:
 
     10
 
-2️⃣ Instance Initialization Block (IIB):
+2️⃣ **Instance Initialization Block (IIB):**
 
 Any block which is declared without the keyword static is called an Instance Initialization Block.
 
