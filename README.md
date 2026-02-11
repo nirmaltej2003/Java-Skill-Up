@@ -1095,7 +1095,7 @@ Execution follows top-to-bottom order.
 - Invoked automatically when object is created
 
 
-/* ---------- Example 1: Simple Constructor ---------- */
+Example 1: Simple Constructor 
 
     class Sample1 {
         Sample1() {
@@ -1107,8 +1107,7 @@ Execution follows top-to-bottom order.
         }
     }
 
-
-/* ---------- Example 2: Initialize Variable Through Constructor ---------- */
+Example 2: Initialize Variable Through Constructor 
 
     class Sample2 {
         int x;
@@ -1124,7 +1123,7 @@ Execution follows top-to-bottom order.
     }
 
 
-/* ---------- Example 3: Employee Using Constructor ---------- */
+Example 3: Employee Using Constructor 
 
     class Employee1 {
         int emp_id;
@@ -1147,7 +1146,7 @@ Execution follows top-to-bottom order.
     }
 
 
-/* ---------- Example 4: Student Using Constructor ---------- */
+Example 4: Student Using Constructor 
 
     class Student1 {
         int std_id;
@@ -1172,14 +1171,12 @@ Execution follows top-to-bottom order.
 ## THIS KEYWORD IN JAVA
 
 - Refers to current object
-  
 - Used when local and instance variables have same name
-  
 - Used only in non-static context
 
 
 
-/* ---------- Example 5: this Keyword Demo ---------- */
+Example 5: this Keyword Demo 
 
     class Demo {
         int a = 10;
@@ -1197,7 +1194,7 @@ Execution follows top-to-bottom order.
     }
 
 
-/* ---------- Example 6: Employee Using this Keyword ---------- */
+Example 6: Employee Using this Keyword 
 
     class Employee2 {
         int emp_id;
@@ -1219,8 +1216,7 @@ Execution follows top-to-bottom order.
         }
     }
     
-
-/* ---------- Example 7: Student Using this Keyword ---------- */
+ Example 7: Student Using this Keyword 
 
     class Student2 {
         int std_id;
