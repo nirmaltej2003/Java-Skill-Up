@@ -1085,3 +1085,160 @@ IIB executes every time an object is created.
 Both blocks execute before the constructor.
 Execution follows top-to-bottom order.
 
+## CONSTRUCTOR IN JAVA
+
+- Special member of a class
+- Used to initialize data members
+- Name must be same as class name
+- No return type
+- Always non-static
+- Invoked automatically when object is created
+
+
+/* ---------- Example 1: Simple Constructor ---------- */
+
+    class Sample1 {
+        Sample1() {
+            System.out.println("Hey, I am constructor");
+        }
+    
+        public static void main(String[] args) {
+            new Sample1();
+        }
+    }
+
+
+/* ---------- Example 2: Initialize Variable Through Constructor ---------- */
+
+    class Sample2 {
+        int x;
+    
+        Sample2(int y) {
+            x = y;
+        }
+    
+        public static void main(String[] args) {
+            Sample2 s1 = new Sample2(10);
+            System.out.println(s1.x);
+        }
+    }
+
+
+/* ---------- Example 3: Employee Using Constructor ---------- */
+
+    class Employee1 {
+        int emp_id;
+        String emp_name;
+        double emp_sal;
+    
+        Employee1(int x, String y, double z) {
+            emp_id = x;
+            emp_name = y;
+            emp_sal = z;
+        }
+    
+        public static void main(String[] args) {
+            Employee1 e1 = new Employee1(89, "Rakesh", 45000);
+    
+            System.out.println(e1.emp_id);
+            System.out.println(e1.emp_name);
+            System.out.println(e1.emp_sal);
+        }
+    }
+
+
+/* ---------- Example 4: Student Using Constructor ---------- */
+
+    class Student1 {
+        int std_id;
+        String std_name;
+        double std_fees;
+    
+        Student1(int x, String y, double z) {
+            std_id = x;
+            std_name = y;
+            std_fees = z;
+        }
+    
+        public static void main(String[] args) {
+            Student1 s1 = new Student1(89, "Rakesh", 45000);
+    
+            System.out.println(s1.std_id);
+            System.out.println(s1.std_name);
+            System.out.println(s1.std_fees);
+        }
+    }
+
+## THIS KEYWORD IN JAVA
+
+- Refers to current object
+  
+- Used when local and instance variables have same name
+  
+- Used only in non-static context
+
+
+
+/* ---------- Example 5: this Keyword Demo ---------- */
+
+    class Demo {
+        int a = 10;
+    
+        void add() {
+            int a = 20;
+            System.out.println(a);        // local variable
+            System.out.println(this.a);   // instance variable
+        }
+    
+        public static void main(String[] args) {
+            Demo d = new Demo();
+            d.add();
+        }
+    }
+
+
+/* ---------- Example 6: Employee Using this Keyword ---------- */
+
+    class Employee2 {
+        int emp_id;
+        String emp_name;
+        double emp_sal;
+    
+        Employee2(int emp_id, String emp_name, double emp_sal) {
+            this.emp_id = emp_id;
+            this.emp_name = emp_name;
+            this.emp_sal = emp_sal;
+        }
+    
+        public static void main(String[] args) {
+            Employee2 e1 = new Employee2(89, "Rakesh", 45000);
+    
+            System.out.println(e1.emp_id);
+            System.out.println(e1.emp_name);
+            System.out.println(e1.emp_sal);
+        }
+    }
+    
+
+/* ---------- Example 7: Student Using this Keyword ---------- */
+
+    class Student2 {
+        int std_id;
+        String std_name;
+        double std_fees;
+    
+        Student2(int std_id, String std_name, double std_fees) {
+            this.std_id = std_id;
+            this.std_name = std_name;
+            this.std_fees = std_fees;
+        }
+    
+        public static void main(String[] args) {
+            Student2 s1 = new Student2(89, "Rakesh", 45000);
+    
+            System.out.println(s1.std_id);
+            System.out.println(s1.std_name);
+            System.out.println(s1.std_fees);
+        }
+    }
+
