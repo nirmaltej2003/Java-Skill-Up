@@ -1095,7 +1095,7 @@ Execution follows top-to-bottom order.
 - Invoked automatically when object is created
 
 
-Example 1: Simple Constructor 
+Example 1️⃣: Simple Constructor 
 
     class Sample1 {
         Sample1() {
@@ -1107,7 +1107,7 @@ Example 1: Simple Constructor
         }
     }
 
-Example 2: Initialize Variable Through Constructor 
+Example 2️⃣: Initialize Variable Through Constructor 
 
     class Sample2 {
         int x;
@@ -1123,7 +1123,7 @@ Example 2: Initialize Variable Through Constructor
     }
 
 
-Example 3: Employee Using Constructor 
+Example 3️⃣: Employee Using Constructor 
 
     class Employee1 {
         int emp_id;
@@ -1146,7 +1146,7 @@ Example 3: Employee Using Constructor
     }
 
 
-Example 4: Student Using Constructor 
+Example 4️⃣: Student Using Constructor 
 
     class Student1 {
         int std_id;
@@ -1176,7 +1176,7 @@ Example 4: Student Using Constructor
 
 
 
-Example 5: this Keyword Demo 
+Example 5️⃣: this Keyword Demo 
 
     class Demo {
         int a = 10;
@@ -1194,7 +1194,7 @@ Example 5: this Keyword Demo
     }
 
 
-Example 6: Employee Using this Keyword 
+Example 6️⃣: Employee Using this Keyword 
 
     class Employee2 {
         int emp_id;
@@ -1216,7 +1216,7 @@ Example 6: Employee Using this Keyword
         }
     }
     
- Example 7: Student Using this Keyword 
+ Example 7️⃣: Student Using this Keyword 
 
     class Student2 {
         int std_id;
